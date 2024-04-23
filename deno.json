@@ -1,0 +1,13 @@
+{
+  "name": "@pup/api-definitions",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./mod.ts"
+  },
+  "tasks": {
+    "check": "deno fmt && deno check mod.ts"
+  },
+  "publish": {
+    "exclude": [".github"]
+  }
+}
