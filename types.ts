@@ -86,10 +86,10 @@ export interface ApiLogItem {
   timeStamp: number;
 }
 export interface ApiMemoryUsage {
-  external?: number,
-  heapTotal: number,
-  heapUsed: number,
-  rss: number
+  external?: number;
+  heapTotal: number;
+  heapUsed: number;
+  rss: number;
 }
 /** Based on Deno.SystemMemoryInfo */
 export interface ApiSystemMemory {
