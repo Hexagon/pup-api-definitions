@@ -4,6 +4,12 @@ export interface ApiPaths {
   configFilePath?: string;
 }
 
+export interface ApiProcessStateChangedEvent {
+  old?: ApiProcessState;
+  new?: ApiProcessState;
+  status: ApiProcessInformation;
+}
+
 export interface ApiProcessData {
   status: ApiProcessInformation;
   config: ApiProcessConfiguration;
