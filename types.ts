@@ -124,3 +124,9 @@ export interface ApiTelemetryData {
   sent: string;
   cwd: string;
 }
+export interface ApiIpcData {
+  sender?: string;
+  target: string;
+  event: string;
+  eventData: unknown;
+}
