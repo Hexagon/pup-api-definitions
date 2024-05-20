@@ -79,7 +79,7 @@ export interface ApiApplicationState {
   loadAvg: number[];
   osUptime: number;
   osRelease: string;
-  denoVersion: { deno: string; v8: string; typescript: string };
+  runtime: string;
   type: string;
   processes: ApiProcessInformation[];
 }
